@@ -33,7 +33,7 @@ sudo apt-get -y update && sudo apt-get -y upgrade
 sudo mv /etc/localtime /etc/localtime.bkp
 sudo ln -s /usr/share/zoneinfo/CST6CDT /etc/localtime
 
-sudo apt-get -y install curl git-core build-essential openssl libreadline6 libreadline6-dev zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev libgdbm-dev ncurses-dev automake libtool bison subversion pkg-config libffi-dev apache2 libcurl4-openssl-dev libapr1-dev libaprutil1-dev apache2-prefork-dev mysql-client
+sudo apt-get -y install curl git-core build-essential openssl libreadline6 libreadline6-dev zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev libgdbm-dev ncurses-dev automake libtool bison subversion pkg-config libffi-dev apache2 libcurl4-openssl-dev libapr1-dev libaprutil1-dev apache2-prefork-dev mysql-client nodejs
 
 
 echo "Disable extra Apache modules, tighten configs"
