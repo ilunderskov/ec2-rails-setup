@@ -48,7 +48,7 @@ echo "Install rbenv, Ruby, and Rails"
 git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
-source /home/ubuntu/.bashrc
+source /home/$USER/.bashrc
 git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 # Verbose install used to prevent disconnection of PuTTy shell
 # EDIT: if you want a different version of ruby, change the install and global lines
