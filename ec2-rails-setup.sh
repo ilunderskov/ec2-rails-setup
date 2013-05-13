@@ -88,7 +88,7 @@ sudo a2enmod passenger
 # Adds the following VirtualHost code to /etc/apache2/conf.d/virtual.conf
 sudo sh -c "cat > /etc/apache2/conf.d/virtual.conf << EOF
 <VirtualHost *:80>
-   ServerName www.selectrehab.com
+   ServerName www.ServerName.com
    # !!! Be sure to point DocumentRoot to 'public'!
    DocumentRoot $rails_app/public
    <Directory $rails_app/public>
